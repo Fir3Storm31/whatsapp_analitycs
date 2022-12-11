@@ -1,0 +1,76 @@
+{
+    "intents": [
+        {
+            "tag": "hello",
+            "patterns": [
+                "come stai?",
+                "in generale come stai",
+                "come stai? non l'ho ancora saputo haha",
+                "come stai?",
+                "psicologicamente come stai?",
+                "con la tua ragazza come va?",
+                "tutto bene, scusa se non ti ho risposto ma ho il tel solo un'ora al giorno e spesso ho tempo solo per le chiamate alla fam. tu come stai?",
+                "come stai?",
+                "come stai?",
+                "come stai?",
+                "come stai?",
+                "come stai?",
+                "come stai?",
+                "come stai?",
+                "tu come stai"
+            ],
+            "responses": [
+                "Bu abbastanza bene. Ieri volevo solo un po' di compagnia, niente di che :)",
+                "Ma si. Complesso hahaha. Dopo se me lo ricordi ti scrivo, ora sono un attimo preso",
+                "ttra. Fisicamente bene, anzi, ho deciso che questa settimana di reclusione mi alleno tutti i giorni, nella speranza che mi torni un po' di forza di volont\u00e0 per continuare per tutta l'estate, o almeno quello \u00e8 il progetto haha. Ma in realt\u00e0 ora come ora bene in tutti i sensi. Diciamo che sto cercando di riprendere un po' tutte le buone abitudini e routine",
+                "Bien. Sto sfruttando il mio tempo nel migliore dei modi: www.fracata.site",
+                "Gi\u00e0, il prossimo \u00e8 l'unico weekend libero del mese... Sarebbe carino non perderlo... Bu, calma piatta",
+                "Bastanza bene. Tranne il fatto che non ci vediamo mai e quando ci vediamo spesso non riusciamo ad avere un momento solo per noi. In pratica non sono ancora partito per il Canada ma la relazione \u00e8 gi\u00e0 a distanza hahahaha",
+                "Ed ecco perch\u00e9 andare in vacanza in Burundi non \u00e8 proprio un'ottima idea",
+                "Figa. 4 giorni che aspetto. Alleluja. Scusa piccolo sfogo hahaha",
+                "Sono io. Palesemente io. Molto neutral, non so come definirlo",
+                "\ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+                "Assonnato. Stanco. Tanto assonnato e tanto stanco",
+                "Ieri ho fatto la prima gara di corsa campestre.. sono morto. Per\u00f2 sono anche fiero di me stesso perch\u00e9 non mi sono mai fermato a camminare, ho corso straight for 5km, il tempo lo sapremo tra un bel po'",
+                "Uh, ma ciao. Ma che sorpresa",
+                "Sembro anche molto gay",
+                "Ieri ho fatto finalmente quell'esame sel cacchio quindi ora meglio. Da una parte sono pi\u00f9 rilassato perch\u00e9 non devo pi\u00f9 studiare come un forsennato, dall'altra sono in ansietta perenne per i risultati che per\u00f2 arrivano solo il 16 dicembre"
+            ]
+        },
+        {
+            "tag": "notte",
+            "patterns": [
+                "buonanotte (spero)",
+                "buonanotte \ud83d\udc96",
+                "notte notte",
+                "buonanotte anche a te :)",
+                "ti immagini io e te iniziare una conversazione di notte hahaha",
+                "buonanotte tesoro \u2764\ufe0f",
+                "ma stanotte?",
+                "la scorsa notte intendo",
+                "notte movimentata",
+                "all'una di notte",
+                "la notte com'\u00e8 andata",
+                "buonanotte fra",
+                "comunque buonanotte, tifo per te daje ce la puoi fare",
+                "ciao",
+                "ciao"
+            ],
+            "responses": [
+                "Non lo so hahahha poi ti spiego. Alla fine ho dormito 8 ore e mezza\ud83d\ude03",
+                "Ok forse mi sono confuso da solo. Notte notte",
+                "(Ho ripensato spesso hai bacini che mi hai dato prima di entrare in casa). Basta. Dopo questa. Passo e chiudo",
+                "Daii",
+                "No io ormai poco poco, per\u00f2 quando ero pi\u00f9 piccolo molto di pi\u00f9. HAHAHAHAHAHAHHA",
+                ":). Buonanotte  *bacino",
+                "Sisi",
+                "1",
+                "Comunque oh, \u00e8 incredibile, non c'\u00e8 una volte che non ti scriva in cui non sei gi\u00e0 online hahaha. Gi\u00e0",
+                "Alle due. All'una c'eravate tu e il pipistrello a tenermi compagnia",
+                "Svegliato tante volte e sonno profondo sempre poco, per\u00f2 ho dormito abbastanza quindi mi accontento",
+                "Spero che ti si raddrizzi nel sonno \ud83d\ude15",
+                "Ho dormito 12 ore quindi credo tu abbia tifato bene hahahaha"
+            ]
+        }
+    ]
+}
