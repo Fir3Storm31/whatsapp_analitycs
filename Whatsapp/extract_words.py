@@ -5,19 +5,25 @@ import os
 from collections import Counter
 import matplotlib.pyplot as plt
 
-me = 'Francesco Catalanotti' # name of the person who is using the program
-name_contact = 'Davide Dorigo' # name of the contact
+### Exemples of use ###
 
-name_file_chat = name_contact # name of the file that contains the chat
+# path to the directory that contains the folder with the chats
+path = 'C:/Users/user/Desktop/whatsapp_analitycs/Whatsapp'
+# name of the person who is using the program
+me = 'Francesco Catalanotti'
+# name of the contact
+name_contact = 'Mario Rossi'
+# name of the file that contains the chat
+name_file_chat = name_contact
+# name of the person who wrote the message
+writer = me
+# name of the person who received the message
+other_user = name_contact
 
-writer = me # name of the person who wrote the message
-other_user = name_contact # name of the person who received the message
 
-def estraiParole(name_contact, writer, other_user):
+def extractWords(name_contact, writer, other_user):
     # list that will collect all the words
     words = []
-    # path to the directory that contains the folder with the chats
-    path = 'C:/Users/franc/Desktop/Portfolio coding/Whatsapp'
     # open file for reading with utf-8 encoding
     with open(f"{path}/Whatsapp chats/WhatsApp Chat with {name_file_chat}.txt", 'r', encoding='utf-8') as file:
         # read file as text
@@ -93,7 +99,7 @@ def barGraph(collected_words):
     plt.show() # show the graph
 
 # call the functions
-#barGraph(estraiParole(name_contact, writer, other_user))
+#barGraph(extractWords(name_contact, writer, other_user))
 
 if __name__ == '__main__':
     # ask the user to input the informations needed
@@ -101,4 +107,4 @@ if __name__ == '__main__':
     writer = input('Name of the person who wrote the message: ')
     other_user = input('Name of the person who received the message: ')
     # call the functions
-    barGraph(estraiParole(name_contact, writer, other_user))
+    barGraph(extractWords(name_contact, writer, other_user))

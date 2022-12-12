@@ -2,18 +2,20 @@ import pandas as pd
 import re
 import json
 
+### Exemples of use ###
+
 # path to the directory that contains the folder with the chats
-path = 'C:/Users/franc/Desktop/Portfolio coding/Whatsapp'
+path = 'C:/Users/user/Desktop/whatsapp_analitycs/Whatsapp'
 # name of the person who is using the program
 me = 'Francesco Catalanotti' 
 # name of the contact
-name_contact = 'Elena Zanchi' 
+name_contact = 'Mario Rossi' 
 # list of stopwords
 stopwords = [r'\s+ei\s', r'\s+oi\s', 'come stai', 'come va', 'tutto bene?', 'che succede']
 # tag
 tag = 'hello'
 
-def estrapolaSaluti(name_contact, tag, stopwords):
+def extractClassOfWords(name_contact, tag, stopwords):
     # read csv file and drop first row and rows with NaN values
     ds = pd.read_csv(f'{path}/Elaborazioni/csv/WhatsApp Chat with {name_contact}.csv').drop(0).dropna()
     # reset index
@@ -50,7 +52,7 @@ def estrapolaSaluti(name_contact, tag, stopwords):
         with open(f'{path}/Elaborazioni/json/WhatsApp Chat with {name_contact}.json', 'w') as outfile:
             json.dump(data, outfile)
 
-#estrapolaSaluti(name_contact, 'notte', ['buonanotte', 'notte'])
+#extractClassOfWords(name_contact, 'notte', ['buonanotte', 'notte'])
 
 if __name__ == '__main__':
     # ask the user to input the informations needed
@@ -58,4 +60,4 @@ if __name__ == '__main__':
     tag = input('Tag: ')
     stopwords = input('Stopwords: ')
     # call the function
-    estrapolaSaluti(name_contact, tag, stopwords)
+    extractClassOfWords(name_contact, tag, stopwords)
